@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ggo"
+
+    tools:context=".FragmentKontak">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Halaman Kontak"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+        <RelativeLayout
+            android:layout_width="329dp"
+            android:layout_height="420dp">
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="47dp"
+                android:src="@drawable/telepon" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="56dp"
+                android:layout_height="57dp"
+                android:layout_below="@id/textView10"
+                android:layout_marginTop="43dp"
+                android:src="@drawable/email" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="47dp"
+                android:layout_height="51dp"
+                android:layout_below="@id/textView10"
+                android:layout_marginTop="202dp"
+                android:src="@drawable/line4" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_below="@id/textView10"
+                android:layout_marginTop="130dp"
+                android:src="@drawable/fb2" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-43dp"
+                android:layout_toRightOf="@id/imageView3"
+                android:text="083820131925"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView3"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="200dp"
+                android:layout_toRightOf="@id/imageView3"
+                android:text="katyusha_nonna"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView3"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@id/imageView3"
+                android:text="facebook.com/sayamanda98"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="46dp"
+                android:layout_toRightOf="@id/imageView3"
+                android:text="niko2nii69@gmail.com"
+                android:textSize="20sp"
+                android:textColor="#fff"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+

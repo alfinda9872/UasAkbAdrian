@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.tugasuasakb.TambahTeman">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Tambah Kontak Teman"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/editTextNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nim" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama" />
+
+    <EditText
+        android:id="@+id/editTextKelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kelas" />
+
+    <EditText
+        android:id="@+id/editTextTele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Nomor Telepon"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/editTextSosmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sosial Media"/>
+
+    <Button
+        android:id="@+id/buttonTambahKontak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambahkan Kontak" />
+
+    <TextView
+        android:id="@+id/textViewListTeman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Kembali Ke Menu"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+</RelativeLayout>
+

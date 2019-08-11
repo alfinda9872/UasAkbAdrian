@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="18dp"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="321dp"
+        android:layout_height="88dp">
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar Akun"
+            android:textSize="40dp"
+            android:gravity="center"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/et_emailSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Username"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <EditText
+        android:id="@+id/et_passwordSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Password"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <EditText
+        android:id="@+id/et_passwordSignup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:hint="Konfirmasi Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeActionLabel="Sign Up"
+        android:imeOptions="actionDone" />
+
+    <Button
+        android:id="@+id/button_signupSignup"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="Daftarkan" />
+
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="139dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="Nadeshiko"
+                android:padding="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/textViewKelas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewName"
+                android:layout_marginLeft="-100dp"
+                android:layout_marginTop="37dp"
+                android:layout_toRightOf="@id/textViewName"
+                android:text="IF4"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/textViewSosmed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewName"
+                android:layout_marginLeft="-102dp"
+                android:layout_marginTop="150dp"
+                android:layout_toRightOf="@id/textViewName"
+                android:text="fb.com/blabla"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/textViewTele"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewName"
+                android:layout_marginLeft="-102dp"
+                android:layout_marginTop="71dp"
+                android:layout_toRightOf="@id/textViewName"
+                android:text="083820131925"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewName"
+                android:layout_marginLeft="-104dp"
+                android:layout_marginTop="111dp"
+                android:layout_toRightOf="@id/textViewName"
+                android:text="niko2nii69@gmail.com"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/textViewNim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewName"
+                android:layout_marginLeft="-103dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@id/textViewName"
+                android:text="10116172"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/buttonHapusTeman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewSosmed"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@id/textViewSosmed"
+                android:background="@color/colorPrimary"
+                android:text="Hapus"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/buttonUbahTeman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewSosmed"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorAccent"
+                android:text="Ubah"
+                android:textColor="#fff" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tugasuasakb">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.tugasuasakb.RegisterActivity"></activity>
+        <activity android:name="com.example.tugasuasakb.LoginActivity" />
+        <activity android:name="com.example.tugasuasakb.LihatPager" />
+        <activity android:name="com.example.tugasuasakb.FragmentTampil" />
+        <activity android:name="com.example.tugasuasakb.TambahTeman" />
+        <activity android:name="com.example.tugasuasakb.ListTeman" />
+        <activity
+            android:name="com.example.tugasuasakb.BottomActivity"
+            android:label="@string/title_activity_bottom" />
+        <activity android:name="com.example.tugasuasakb.ProfilAdrian" />
+        <activity android:name="com.example.tugasuasakb.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

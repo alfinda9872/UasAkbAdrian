@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ggo"
+
+    tools:context=".FragmentProfil">
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="83dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Log Out"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Halaman Profil"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="202dp"
+            android:layout_height="203dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/adrian" />
+
+
+        <RelativeLayout
+            android:layout_width="370dp"
+            android:layout_height="397dp">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:text="Nim :"
+                android:textColor="#fff" />
+
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/textView16"
+                android:text="10116172"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView16"
+                android:layout_marginTop="4dp"
+                android:text="Nama :"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView16"
+                android:layout_marginTop="29dp"
+                android:text="Kelas :"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView16"
+                android:layout_marginTop="54dp"
+                android:text="Deskripsi Diri :"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView16"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@id/textView17"
+                android:text=" Adrian Syahputra Alfinda"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/textView22"
+
+                android:layout_width="230dp"
+                android:layout_height="192dp"
+                android:layout_below="@id/textView16"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="53dp"
+                android:layout_toRightOf="@id/textView17"
+                android:text="Saya lahir di Pekanbaru, 05 Maret 1998. Pertama kali tertarik dengan Programming
+adalah pada saat SMP sering mencoba menginstall Software-Software unik dan ingin tahu cara pembuatannya. Untuk itu saya memasuki jurusan Rekayasa Perangkat Lunak di SMK, dan melanjutkan ke Teknik Informatika pada Kuliah saat ini."
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView16"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/textView17"
+                android:text="IF-4 (AKB4)"
+                android:textColor="#fff" />
+
+
+            <TextView
+                android:id="@+id/tv_namaMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:visibility="invisible"
+                tools:text="Namaku adalah" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
